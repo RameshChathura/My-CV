@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>about me</title>
+	<style>
+		body {
+			margin: 0;
+		}
+
+		.header {
+		  	background-color: #009999;
+		  	color: #ffffff;
+		  	font-family: Courier New;
+			padding: 15px;
+		 	letter-spacing: 5px;
+			}
+
+		ul.nav {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #cccccc;
+			color: black;
+			box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  			text-align: center;
+  			box-shadow: 0 0 10px black;
+		}
+
+		ul.nav li {
+			float: left;
+		}
+
+		ul.nav li a {
+
+		    display: block;
+			font-family: Candara;
+			font-size: 18px;
+  			font-weight: bold;
+			color: #1a1a1a;
+			text-align: center;
+			padding: 14px 35px;
+			text-decoration: none;
+		}
+
+		ul.nav li a:hover:not(.active) {
+			background-color: #999999;
+		}
+
+		ul.nav li a.active {
+			background-color: #bf8040;
+			color:  #ccffff
+		}
+
+		.pgbody img {
+			display: block;
+	  		width:500px;
+			margin: 10px auto 10px auto;
+		}
+		.box{
+			background-size: cover;
+			background-color: #e6e6e6;
+		}
+		.pgbody ul{
+   			list-style-type: none;
+  			margin: 0;
+  			padding: 5px;
+  			overflow: hidden;
+  			background-color: #d9d9d9;
+  			text-align: center;
+  			box-shadow: 0 0 10px black;
+   		}
+   		.pgbody ul li {
+   			font-family: Segoe UI;
+   			font-size: 18px;
+			display: inline-block;
+			padding: 10px 15px 10px 15px;
+		}
+
+		@media screen and (max-width: 600px) { 
+		  ul.nav li {float: none;}
+		}
+</style>
+</head>
+<body>
+	<div class="header">
+  		<h1>RAMESH CHATHURA</h1>
+		</div>
+
+	<ul class="nav">
+  		<li><a class="active" href="page_1_profile.html">ABOUT ME</a></li>
+		<li><a href="page_2_education.html">EDUCATION</a></li>
+		<li><a href="page_3_blog.html">BLOG</a></li>
+		<li><a href="page_4_portfolio.html">PORTFOLIO</a></li>
+		<li><a href="page_5_contact.html">CONTACT</a></li>
+	</ul>
+
+<div style="padding:0 16px;">
+  
+  	<div class="pgbody">
+	 		<div class="box">	
+	 		<img src="images/klj_0521.jpg" alt='Profile Picture'>
+	 		</div>
+	 		<ul>
+	 			<li><b>NAME</b> :  Ramesh Chathura</li>
+	 			<li><b>LOCATION</b>  : Ginigathena Srilanka</li>
+	 			<li><b>AGE</b>  :  23 Years</li>
+	 			<li><b>PHONE</b>  : +94 775777197</li>
+	 		</ul>
+	 	</div>
+</div>
+
+</body>
+</html>

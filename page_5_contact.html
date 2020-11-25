@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>contact</title>
+	<style>
+		body {
+			margin: 0;
+		}
+
+		.header {
+		  	background-color: #009999;
+		  	color: #ffffff;
+		  	font-family: Courier New;
+			padding: 15px;
+		 	letter-spacing: 5px;
+			}
+
+		ul.nav {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #cccccc;
+			color: black;
+			box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  			text-align: center;
+  			box-shadow: 0 0 10px black;
+		}
+
+		ul.nav li {
+			float: left;
+		}
+
+		ul.nav li a {
+
+		    display: block;
+			font-family: Candara;
+			font-size: 18px;
+  			font-weight: bold;
+			color: #1a1a1a;
+			text-align: center;
+			padding: 14px 35px;
+			text-decoration: none;
+		}
+
+		ul.nav li a:hover:not(.active) {
+			background-color: #999999;
+		}
+
+		ul.nav li a.active {
+			background-color: #bf8040;
+			color:  #ccffff
+		}
+
+		.pgbody img {
+			display: block;
+	  		width:500px;
+			margin: 10px auto 10px auto;
+		}
+		.box{
+			background-size: cover;
+			background-color: #e6e6e6;
+		}
+		.pgbody ul{
+   			list-style-type: none;
+  			margin: 0;
+  			padding: 5px;
+  			overflow: hidden;
+  			background-color: #d9d9d9;
+  			text-align: center;
+  			box-shadow: 0 0 10px black;
+   		}
+   		.pgbody ul li {
+   			font-family: Segoe UI;
+   			font-size: 18px;
+			display: inline-block;
+			padding: 10px 15px 10px 15px;
+		}
+		.listbox{
+			margin: 20px;
+			padding: 20px;
+			height: 300px;
+			width: 200px;
+			background-color: #ccccb3;
+			float: left;
+		}
+		.listbox h3{
+			font-family: Verdana;
+			color:#604020;
+		}
+		.listbox p{
+			font-family: Gadugi;
+			color:#660000;
+			font-size: 18px;
+		}
+		div.listbox:hover{
+			background-color: #ca9b68; 
+   			color:#ffa64d;
+   			height: 350px;
+			width: 250px;
+   			padding:10px
+
+   		}
+   		.listbox img{
+   			height: 100px;
+   			width: 100px;
+   		}
+
+		@media screen and (max-width: 600px) { 
+		  ul.nav li {float: none;}
+		  div.listbox div{float: none;}
+		}
+</style>
+</head>
+<body>
+	<div class="header">
+  		<h1>RAMESH CHATHURA</h1>
+		</div>
+
+	<ul class="nav">
+  		<li><a href="page_1_profile.html">ABOUT ME</a></li>
+		<li><a href="page_2_education.html">EDUCATION</a></li>
+		<li><a href="page_3_blog.html">BLOG</a></li>
+		<li><a href="page_4_portfolio.html">PORTFOLIO</a></li>
+		<li><a class="active" href="page_5_contact.html">CONTACT</a></li>
+	</ul>
+
+<div style="padding:0 16px;">
+  
+  	<div class="pgbody">
+	 	<div class="box">
+			 	<div class="address listbox">
+					<img src="images/kisspng-computer-icons-location-al-s-tile-marble-fino-ic-location-symbol-png-circle-location-icon-5ab06d82021195.9343958615215118100085.png">
+					<h3>Address</h3>
+					<p>Wewalthalawa, Bagathuluwa, Ginigathena.</p>
+				</div><!--address-->
+
+				<div class="phone listbox">
+					<img src="images/kisspng-computer-icons-telephone-call-symbol-phone-vector-5ad050946903f3.3287647915236015564302.png">
+					<h3>Phone</h3>
+					<p>+94 775777197</p>
+				</div><!--phone-->
+
+				<div class="email listbox">
+					<img src="images/kisspng-computer-icons-email-webmail-desktop-wallpaper-cli-backup-5ae00038148271.899071471524629560084.png">
+					<h3>Email</h3>
+					<p>ramesh.crs96@gmail.com</p>
+				</div><!--email-->	
+	 		
+	 	</div><!--box-->
+</div>
+
+</body>
+</html>
